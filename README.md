@@ -8,9 +8,9 @@ https://youtu.be/rCAOAQgAN3o
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used Visual Studio 2022 to develop the software. I also used .Net 8.0 to create the application. I used C# as the programming language. I also used GitHub to host the code and to track changes.
 
-{Describe the programming language that you used and any libraries.}
+
 
 # Useful Websites
 
