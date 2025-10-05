@@ -2,7 +2,7 @@ namespace TicTacToe
 {
     public partial class FormGame : Form
     {
-        bool turn = true; // true = X turn; false = Y turn
+        bool turn = true; // true = X turn; false = O turn
         int turn_count = 0;
         public FormGame()
         {
@@ -118,12 +118,10 @@ namespace TicTacToe
                     winner = "X";
                 MessageBox.Show(winner + " Wins!", "Yay!");
             }
-            else
-
+            else if (turn_count == 9)
             {
                 DisableButtons();
-                if (turn_count == 9)
-                    MessageBox.Show("Cats Game!", "Bummer!");
+                MessageBox.Show("Cats Game!", "Bummer!");
             }
         }
         private void DisableButtons()
